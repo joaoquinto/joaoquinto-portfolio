@@ -18,6 +18,8 @@ O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e 
 
 **Front-end:** 
 
+**Plugins:** 
+
 **Design:** AdobeXD
 
 **Monitoramento:** Google Analytics
