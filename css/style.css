@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../assets/fonts/montserrat/Montserrat-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url(../assets/fonts/raleway/static/Raleway-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+:root {
+  --bg-color: #393131;
+  --bg-header: #322b2b;
+  --bg-buttons: #ffffff;
+  --bg-cards: #5e585c;
+  --color-text-buttons: #393131;
+  --color-text: #ffffff;
+  --fs-title: 1.875rem;
+  --fs-text-1: 1.25rem;
+  --fs-text-2: 1rem;
+  --fs-text-buttons: 1.25rem;
+}
+
