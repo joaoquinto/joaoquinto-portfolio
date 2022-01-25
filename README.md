@@ -1,38 +1,38 @@
-
 # joaoquinto-portfolio
 
 Olá esse é o repositório do meu portfólio de projeto!
-
 
 ## Autores
 
 - [@joaoquinto](https://github.com/joaoquinto)
 
-
 ## Aprendizados
 
 O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e como você superou-os?
 
-
 ## Stack utilizada
 
-**Front-end:** 
+**Front-end:** HTML5, CSS3, Javascript, Google Fonts
 
-**Plugins:** 
+**Icons:** Font Awesome
+
+**Plugins:**
 
 **Design:** AdobeXD
 
 **Monitoramento:** Google Analytics
 
-
 ## Screenshots
 
-![Mobile Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+### Mobile Screenshot
 
+<img src="./screenshots/mobile.1v.png" width="300px" height="600px">
+<img src="./screenshots/mobile-open-menu.1v.png" width="300px" height="600px">
 
-![Desktop Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+### Desktop Screenshot
+
+<img src="./screenshots/Desktop.1v.png" width="900px" height="600px">
 
 ## Licença
 
 [MIT](https://github.com/joaoquinto/joaoquinto-portfolio/blob/main/LICENSE)
-
