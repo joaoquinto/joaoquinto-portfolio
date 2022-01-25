@@ -40,8 +40,108 @@ a {
   --color-text-buttons: #393131;
   --color-text: #ffffff;
   --fs-title: 1.875rem;
-  --fs-text-1: 1.25rem;
+  --fs-text-1: 1.25rem; /* 20px */
   --fs-text-2: 1rem;
   --fs-text-buttons: 1.25rem;
 }
 
+header {
+  background-color: var(--bg-header);
+}
+
+#container-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 27px;
+  margin: 0 28px;
+}
+
+#container-menu #menu-logo {
+  color: var(--color-text);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: var(--fs-text-1);
+  font-weight: bold;
+}
+
+#container-menu #menu-hamburguer {
+  width: 54px;
+  height: 35px;
+  align-self: flex-end;
+  position: relative;
+  bottom: 27px;
+  background-color: #707070;
+  border: none;
+  cursor: pointer;
+}
+
+#container-menu #menu-hamburguer .fa-bars:before {
+  color: var(--bg-header);
+}
+
+#container-menu #menu-logo {
+  align-self: flex-start;
+}
+
+#container-menu .menu-hamburguer-item {
+  display: none;
+  visibility: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#container-menu .menu-hamburguer-item li {
+  margin-bottom: 34px;
+}
+
+#container-menu .menu-hamburguer-item .menu-link {
+  color: var(--color-text);
+  font-family: 'Montserrat';
+  font-size: var(--fs-text-1);
+  text-transform: uppercase;
+  transition: color 0.1s;
+}
+
+#container-menu .menu-hamburguer-item .menu-link:hover {
+  color: #707070;
+}
+
+#container-menu .menu-hamburguer-item.ativo {
+  display: flex;
+  visibility: visible ;
+}
+
+
+@media (min-width:1000px) {
+  #container-menu {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 27px 0;
+  align-items: baseline;
+  }
+
+  #container-menu #menu-logo {
+    align-self: baseline;
+  }
+
+  #container-menu #menu-hamburguer {
+    display: none;
+  }
+
+  #container-menu .menu-hamburguer-item {
+    display: flex;
+    visibility: visible;
+    flex-direction: row;
+
+  }
+
+  #container-menu .menu-hamburguer-item li {
+  margin-bottom: 0;
+  }
+
+  #container-menu .menu-hamburguer-item li + li {
+    margin-left: 36px;
+  }
+}
