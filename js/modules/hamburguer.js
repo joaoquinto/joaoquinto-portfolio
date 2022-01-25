@@ -6,10 +6,10 @@ const validator = menuHamburguerItem.classList.contains('ativo')
 
 if (validator != true) {
   menuHamburguerItem.classList.add('ativo')
-  buttonMenu.ariaExpanded = 'true'
+  menuHamburguerItem.ariaExpanded = 'true'
 } else {
   menuHamburguerItem.classList.remove('ativo')
-  buttonMenu.ariaExpanded = 'false'
+  menuHamburguerItem.ariaExpanded = 'false'
 }
 
 }
