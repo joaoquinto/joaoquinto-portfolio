@@ -12,13 +12,13 @@ O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e 
 
 ## Stack utilizada
 
-**Front-end:** HTML5, CSS3, Javascript, Google Fonts
+**Front-end:** HTML5, CSS3, Javascript
+
+**Ferramentas:** Google Fonts, AdobeXD, Compressor.io, Vscode, Git
 
 **Icons:** Font Awesome
 
 **Plugins:**
-
-**Design:** AdobeXD
 
 **Monitoramento:** Google Analytics
 
