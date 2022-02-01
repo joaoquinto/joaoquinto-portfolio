@@ -45,8 +45,30 @@ a {
   --fs-text-buttons: 1.25rem;
 }
 
+body {
+  background: var(--bg-color);
+}
+
 header {
   background-color: var(--bg-header);
+}
+
+.title {
+  color: var(--color-text);
+  font-size: var(--fs-title);
+  font-family: 'Montserrat';
+  text-align: center;
+  text-transform: uppercase;
+  margin: 58px 0;
+}
+
+.title::after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 24px;
+  height: 3px;
+  background: var(--color-text);
 }
 
 #container-menu {
@@ -62,6 +84,7 @@ header {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: var(--fs-text-1);
   font-weight: bold;
+  transition: color 0.1s;
 }
 
 #container-menu #menu-hamburguer {
@@ -104,22 +127,22 @@ header {
   transition: color 0.1s;
 }
 
-#container-menu .menu-hamburguer-item .menu-link:hover {
+#container-menu .menu-hamburguer-item .menu-link:hover,
+#container-menu #menu-logo:hover {
   color: #707070;
 }
 
 #container-menu .menu-hamburguer-item.ativo {
   display: flex;
-  visibility: visible ;
+  visibility: visible;
 }
 
-
-@media (min-width:1000px) {
+@media (min-width: 1000px) {
   #container-menu {
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 27px 0;
-  align-items: baseline;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 27px 0;
+    align-items: baseline;
   }
 
   #container-menu #menu-logo {
@@ -134,14 +157,80 @@ header {
     display: flex;
     visibility: visible;
     flex-direction: row;
-
   }
 
   #container-menu .menu-hamburguer-item li {
-  margin-bottom: 0;
+    margin-bottom: 0;
   }
 
   #container-menu .menu-hamburguer-item li + li {
     margin-left: 36px;
   }
+}
+
+#container-sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#container-sobre img {
+  width: 214px;
+  height: 214px;
+  margin: 0 92px 23px 92px;
+  border-radius: 50%;
+  flex: 0 0 calc(100% - 184px);
+}
+
+#container-sobre p {
+  color: var(--color-text);
+  font-size: var(--fs-text-1);
+  font-family: 'Raleway';
+  text-align: center;
+  margin: 0 30px;
+  flex: 0 0 calc(100% - 60px);
+}
+
+.contateme {
+  color: var(--color-text-buttons);
+  width: 159px;
+  padding: 8px 0;
+  background: var(--bg-buttons);
+  text-align: center;
+  font-size: var(--fs-text-buttons);
+  font-family: 'Segoe UI';
+  margin-top: 40px;
+  display: block;
+}
+
+@media (min-width: 800px) {
+  #container-sobre img {
+    width: 282px;
+    height: 282px;
+    margin: 0 0 23px 0;
+    flex: 0 0 282px;
+  }
+
+  #container-sobre p {
+    width: 577px;
+    margin: 0 0px;
+    flex: 0 0 100%;
+  }
+}
+
+#habilidades-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 130px));
+  justify-content: center;
+  gap: 30px;
+}
+
+#habilidades-lista .item-lista {
+  width: 108px;
+  height: 108px;
+}
+
+#container-habilidades .contateme {
+  margin-left: auto;
+  margin-right: auto;
 }
