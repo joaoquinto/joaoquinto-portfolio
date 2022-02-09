@@ -44,17 +44,16 @@
     <nav id="container-menu">
       <a href="https://joaoquinto.github.io/joaoquinto-portfolio/" id="menu-logo">Joãoquinto</a>
       <button id="menu-hamburguer" aria-label="Button dropdown" title="Button dropdown"><i class="fas fa-bars fa-lg icon"></i></button>
-      <ul class="menu-hamburguer-item" class="ativo" role="menu" aria-expanded="false" aria-label="Dropdown menu" aria-orientation="vertical">
+      <ul class="menu-hamburguer-item" role="menu" aria-expanded="false" aria-label="Dropdown menu" aria-orientation="vertical">
         <li role="menuitem"><a href="#container-sobre" class="menu-link">Sobre</a></li>
         <li role="menuitem"><a href="#container-habilidades" class="menu-link">Habilidades</a></li>
         <li role="menuitem"><a href="#container-projetos" class="menu-link">Projetos</a></li>
-        <li role="menuitem"><a href="#" class="menu-link">Formação</a></li>
-        <li role="menuitem"><a href="#" class="menu-link">Contato</a></li>
+        <li role="menuitem"><a href="#container-formacao" class="menu-link">Formação</a></li>
+        <li role="menuitem"><a href="#container-contato" class="menu-link">Contato</a></li>
       </ul>
     </nav>
   </header>
-  <section id="container-sobre">
-    <h2 class="title">Sobre</h2>
+  <section id="container-sobre" title="Sobre" aria-label="Sobre">
     <img src="./assets/icons/joao-foto.jpg" alt="Foto do criador da página, usando uma camisa polo vermelha que tem uma gola preta.">
     <p>Olá, meu nome é João e seja bem vindo ao meu portfólio.
       Aqui vai ser o lugar onde eu irei colocar as minhas informações e projetos pessoais, sinta se à vontade para entrar
@@ -64,19 +63,196 @@
   <section id="container-habilidades">
     <h2 class="title">Habilidades</h2>
     <ul id="habilidades-lista">
-      <li class="item-lista html"><img title="HTML5" src="./assets/icons/html.svg" alt="Logo da linguagem de marcação HTML5"></li>
-      <li class="item-lista css"><img title="CSS3" src="./assets/icons/css.svg" alt="Logo da linguagem de estilo CSS3 "></li>
-      <li class="item-lista"><img title="AdobeXD" src="./assets/icons/Adobe-XD.svg" alt="Logo da ferramenta de design AdobeXD"></li>
-      <li class="item-lista"><img title="MYSQL" src="./assets/icons/mysql.svg" alt="Logo do SGBD MYSQL"></li>
-      <li class="item-lista"><img title="Git" src="./assets/icons/git.svg" alt="Logo do sistema de controle de versões Git"></li>
-      <li class="item-lista"><img title="Google Analytics" src="./assets/icons/Google-Analytics-logo.svg" alt="Logo da ferramenta de monitoramento Google Analytics"></li>
+
+      <li class="item-lista">
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
+          <img title="HTML5" src="./assets/icons/html.svg" alt="Logo da linguagem de marcação HTML5">
+        </a>
+      </li>
+
+      <li class="item-lista">
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
+          <img title="CSS3" src="./assets/icons/css.svg" alt="Logo da linguagem de estilo CSS3 ">
+        </a>
+      </li>
+
+      <li class="item-lista">
+        <a href="https://www.adobe.com/br/products/xd.html" target="_blank" rel="noopener noreferrer">
+          <img title="AdobeXD" src="./assets/icons/Adobe-XD.svg" alt="Logo da ferramenta de design AdobeXD">
+        </a>
+      </li>
+
+      <li class="item-lista">
+        <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer">
+          <img title="MYSQL" src="./assets/icons/mysql.svg" alt="Logo do SGBD MYSQL">
+        </a>
+      </li>
+
+      <li class="item-lista">
+        <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">
+          <img title="Git" src="./assets/icons/git.svg" alt="Logo do sistema de controle de versões Git">
+        </a>
+      </li>
+
+      <li class="item-lista">
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <img title="Github" src="./assets/icons/github.svg" alt="Logo da plataforma de hospedagem github de código-fonte e arquivos com controle de versão">
+        </a>
+      </li>
+
+      <li class="item-lista">
+        <a href="https://analytics.google.com/analytics/web/#/" target="_blank" rel="noopener noreferrer">
+          <img title="Google Analytics" src="./assets/icons/Google-Analytics-logo.svg" alt="Logo da ferramenta de monitoramento Google Analytics">
+        </a>
+      </li>
     </ul>
-    <a href="mailto:joaovictoroliveirapereira6522@gmail.com?subject=Contato%20para%20mais%20informa%C3%A7%C3%B5es" target="_blank" rel="noopener noreferrer" class="contateme">Entre em contato</a>
   </section>
+
   <section id="container-projetos">
+
     <h2 class="title">Projetos</h2>
+
+    <div id="container">
+
+      <ul class="container-card" title="Natarajan é um template para exposição de fotos de modelos. Esse foi o meu primeiro site">
+        <li>
+          <a href="https://joaoquinto.github.io/natarajan/template/index.html" target="_blank" rel="noopener noreferrer">
+            <img class="img-card" src="./assets/icons/natarajan.svg" alt="Uma imagem de uma mulher com roupa de piloto de caça, sentada na grama">
+          </a>
+        </li>
+        <li>
+          <h3 class="title-card">Natarajan</h3>
+        </li>
+        <li>
+          <ul class="container-infos">
+            <li><strong>HTML5</strong></li>
+            <li><strong>CSS3</strong></li>
+            <li><strong>Javascript</strong></li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="container-card" title="Get shape é uma plataforma de corrida, com o intuito de adquirir novos clientes e fazê-los entrar em forma no verão.">
+        <li>
+          <a href="https://joaoquinto.github.io/getshape/" target="_blank" rel="noopener noreferrer">
+            <img class="img-card" src="./assets/icons/getshape.svg" alt="Um imagem com uma mulher correndo e um texto dizendo Whats up?">
+          </a>
+        </li>
+        <li>
+          <h3 class="title-card">Getshape</h3>
+        </li>
+        <li>
+          <ul class="container-infos">
+            <li><strong>HTML5</strong></li>
+            <li><strong>CSS3</strong></li>
+            <li><strong>Javascript</strong></li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="container-card" title="Spacer é uma plataforma de coworking que contém espaços projetados para pessoas que prefeririam trabalhar em uma comunidade ao invés de uma empresa.">
+        <li>
+          <a href="https://joaoquinto.github.io/spacer/" target="_blank" rel="noopener noreferrer">
+            <img class="img-card" src="./assets/icons/spacer.svg" alt="Uma imagem de uma pessoa em um espaço de coworking">
+          </a>
+        </li>
+        <li>
+          <h3 class="title-card">Spacer</h3>
+        </li>
+        <li>
+          <ul class="container-infos">
+            <li><strong>HTML5</strong></li>
+            <li><strong>CSS3</strong></li>
+            <li><strong>Analytics</strong></li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="container-card" title="Athena é uma plataforma de músicas, nela você pode encontrar o que há de melhor e mais recente no pop, country, reggae, rap e todos os outros tipos de música imagináveis. ">
+        <li>
+          <a href="https://joaoquinto.github.io/billie/index.html" target="_blank" rel="noopener noreferrer">
+            <img class="img-card" src="./assets/icons/billie-eilish.svg" alt="Uma imagem da cantora Billie Eilish, com um filtro alaranjado">
+          </a>
+        </li>
+        <li>
+          <h3 class="title-card">Athena</h3>
+        </li>
+        <li>
+          <ul class="container-infos">
+            <li><strong>HTML5</strong></li>
+            <li><strong>CSS3</strong></li>
+            <li><strong>Flexbox</strong></li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="container-card" title="Esse é um desafio da plataforma frontend mentor. É um card com informações de tipos de carros
+  ">
+        <li>
+          <a href="https://joaoquinto.github.io/card-frontend-mentor/" target="_blank" rel="noopener noreferrer">
+            <img class="img-card" src="./assets/icons/column-preview.svg" alt="Uma imagem de um card laranja, com informações sobre SEDANS">
+          </a>
+        </li>
+        <li>
+          <h3 class="title-card">3 column preview card</h3>
+        </li>
+        <li>
+          <ul class="container-infos">
+            <li><strong>HTML5</strong></li>
+            <li><strong>CSS3</strong></li>
+            <li><strong>Flexbox</strong></li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="container-card" title="Esse é um desafio da plataforma frontend mentor. É um card de exposição, para venda de NFT.">
+        <li>
+          <a href="https://joaoquinto.github.io/nft-card-componet/" target="_blank" rel="noopener noreferrer">
+            <img class="img-card" src="./assets/icons/ntf-preview.svg" alt="Uma imagem de um cubo vermelho, com partes azuis.">
+          </a>
+        </li>
+        <li>
+          <h3 class="title-card">NFT - Preview</h3>
+        </li>
+        <li>
+          <ul class="container-infos">
+            <li><strong>HTML5</strong></li>
+            <li><strong>CSS3</strong></li>
+            <li><strong>Flexbox</strong></li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="container-card" title="Esse é um desafio da plataforma frontend mentor. É um card de exposição, para anúncio de uma plataforma de música e audiobooks.">
+        <li>
+          <a href="https://joaoquinto.github.io/summary-order/#" target="_blank" rel="noopener noreferrer">
+            <img class="img-card" src="./assets/icons/order-summary.svg" alt="Uma imagem de um card de propaganda de uma plataforma de música.">
+          </a>
+        </li>
+        <li>
+          <h3 class="title-card">Order Summary</h3>
+        </li>
+        <li>
+          <ul class="container-infos">
+            <li><strong>HTML5</strong></li>
+            <li><strong>CSS3</strong></li>
+            <li><strong>Flexbox</strong></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+  </section>
+  <section id="container-formacao">
+    <h2 class="title">Formação</h2>
+  </section>
+  <section id="container-contato">
+    <h2 class="title">Contato</h2>
   </section>
   <script type="module" src="./js/script.js"></script>
+  <footer>
+    <a href="https://github.com/joaoquinto" target="_blank" rel="noopener noreferrer">joaoquinto &copy; 2022</a>
+  </footer>
 </body>
 
 </html>
