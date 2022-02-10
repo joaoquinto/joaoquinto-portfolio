@@ -150,7 +150,8 @@ section:nth-child(odd) {
 
 #container-menu .menu-hamburguer-item .menu-link:hover,
 #container-menu #menu-logo:hover,
-footer a:hover {
+footer a:hover,
+.title-card a:hover {
   color: #707070;
 }
 
@@ -264,12 +265,14 @@ footer a:hover {
   margin-top: 20px;
 }
 
-.title-card {
+.title-card a {
+  display: block;
   color: var(--color-text);
   font-family: 'Montserrat';
   margin: 25px 0;
   background: var(--bg-color);
   padding: 10px 5px;
+  transition: 0.1s color;
 }
 
 .container-card .container-infos {
