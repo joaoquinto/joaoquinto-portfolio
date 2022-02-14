@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -151,7 +156,7 @@ section:nth-child(odd) {
 #container-menu .menu-hamburguer-item .menu-link:hover,
 #container-menu #menu-logo:hover,
 footer a:hover,
-.title-card a:hover {
+.title-card a:hover, #contato a:hover {
   color: #707070;
 }
 
@@ -303,9 +308,38 @@ footer a:hover,
   }
 }
 
+#container-contato{
+  text-align: center;
+}
+
+#contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contato li{
+  margin-left: 24px;
+  margin-right: 24px;
+  flex: 0 0 calc(100% - 48px);
+}
+
+#contato a{
+  font-size: var(--fs-text-2);
+  color: var(--color-text);
+  font-family: 'Raleway';
+  transition: .1s color;
+}
+
+#contato li + li{
+ margin-top: 19px;
+}
+
 footer {
   background: var(--bg-header);
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 27px 0;
   height: 81px;
 }
@@ -315,6 +349,26 @@ footer a {
   color: var(--color-text);
   font-family: 'Montserrat';
   font-size: var(--fs-text-1);
-  display: block;
   transition: color 0.1s;
+}
+
+.slideToUp {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  position: relative;
+  left: 10%;
+  background-color: #707070;
+  border: none;
+}
+
+.slideToUp::before {
+  content: '\2B71';
+  font-size: 30px;
+}
+
+@media (min-width: 700px) {
+  .slideToUp {
+    left: 30%;
+  }
 }
