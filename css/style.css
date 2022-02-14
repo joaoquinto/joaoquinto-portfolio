@@ -4,14 +4,15 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
-
 }
 
 img {
   display: block;
   max-width: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 ul,
@@ -100,8 +101,9 @@ section:nth-child(odd) {
 #container-menu {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 27px 0;
+  padding: 27px 0 0 0;
   margin: 0 28px;
 }
 
@@ -156,7 +158,8 @@ section:nth-child(odd) {
 #container-menu .menu-hamburguer-item .menu-link:hover,
 #container-menu #menu-logo:hover,
 footer a:hover,
-.title-card a:hover, #contato a:hover {
+.title-card a:hover,
+#contato a:hover {
   color: #707070;
 }
 
@@ -308,7 +311,7 @@ footer a:hover,
   }
 }
 
-#container-contato{
+#container-contato {
   text-align: center;
 }
 
@@ -318,21 +321,21 @@ footer a:hover,
   align-items: center;
 }
 
-#contato li{
+#contato li {
   margin-left: 24px;
   margin-right: 24px;
   flex: 0 0 calc(100% - 48px);
 }
 
-#contato a{
+#contato a {
   font-size: var(--fs-text-2);
   color: var(--color-text);
   font-family: 'Raleway';
-  transition: .1s color;
+  transition: 0.1s color;
 }
 
-#contato li + li{
- margin-top: 19px;
+#contato li + li {
+  margin-top: 19px;
 }
 
 footer {
@@ -360,10 +363,6 @@ footer a {
   left: 10%;
   background-color: #707070;
   border: none;
-}
-
-.slideToUp::before {
-  content: '\2B71';
   font-size: 30px;
 }
 
