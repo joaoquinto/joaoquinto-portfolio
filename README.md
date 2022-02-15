@@ -26,12 +26,12 @@ O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e 
 
 ### Mobile Screenshot
 
-<img src="./screenshots/Mobile.4v.png" width="414px">
-<img src="./screenshots/Mobile-open.4v.png" width="414px">
+<img src="./screenshots/Mobile.5v.png" width="414px">
+<img src="./screenshots/Mobile-open.5v.png" width="414px">
 
 ### Desktop Screenshot
 
-<img src="./screenshots/Desktop.4v.png" width="1280px" >
+<img src="./screenshots/Desktop.5v.png" width="1280px" >
 
 ## Licença
 
