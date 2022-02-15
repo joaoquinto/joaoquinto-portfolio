@@ -14,6 +14,8 @@ Olá esse é o repositório do meu portfólio de projeto!
 
 **Icons:** Font Awesome
 
+**Plugin:** Vlibras
+
 **Monitoramento:** Google Analytics
 
 ## Screenshots
