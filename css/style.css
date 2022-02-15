@@ -364,6 +364,8 @@ footer a {
   background-color: #707070;
   border: none;
   font-size: 30px;
+  font-weight: bold;
+
 }
 
 @media (min-width: 700px) {
