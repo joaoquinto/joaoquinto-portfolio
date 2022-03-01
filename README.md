@@ -14,20 +14,22 @@ Olá esse é o repositório do meu portfólio de projeto!
 
 **Icons:** Font Awesome
 
-**Plugin:** Vlibras
+**Plugin:** Vlibras, Vanilla-tilt.js
 
 **Monitoramento:** Google Analytics
 
 ## Screenshots
 
+<img src="./screenshots/portfolio.gif" width="1280px">
+
 ### Mobile Screenshot
 
-<img src="./screenshots/Mobile.6v.png" width="414px">
-<img src="./screenshots/Mobile-open.6v.png" width="414px">
+<img src="./screenshots/Mobile.7v.png" width="414px">
+<img src="./screenshots/Mobile-open.7v.png" width="414px">
 
 ### Desktop Screenshot
 
-<img src="./screenshots/Desktop.6v.png" width="1280px" >
+<img src="./screenshots/Desktop.7v.png" width="1280px">
 
 ## Licença
 
