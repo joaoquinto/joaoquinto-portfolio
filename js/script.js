@@ -3,5 +3,5 @@ import SlideToUp from "./modules/slideToUp.js";
 
 menuHamburguer
 acessibilidade
-SlideToUp
+SlideToUp()
 
