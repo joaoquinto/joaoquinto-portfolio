@@ -1,4 +1,4 @@
-# joaoquinto-portfolio
+# Joãoquinto-portfolio
 
 Olá esse é o repositório do meu portfólio de projeto!
 
